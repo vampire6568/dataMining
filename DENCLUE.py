@@ -4,7 +4,6 @@ from sklearn.datasets import load_iris
 from sklearn.base import BaseEstimator, ClusterMixin
 import networkx as nx
 
-
 class Denclue(BaseEstimator, ClusterMixin):
     def __init__(self, h=None, eps=1e-5, min_density=0., metric='euclidean'):
         self.h = h
