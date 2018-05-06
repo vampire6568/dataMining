@@ -1,1 +1,1 @@
-data mining course desing by houqian
+data mining course desing by houqiang
